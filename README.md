@@ -47,19 +47,19 @@ Open the Batch file in a text editor (I use Notepad++) and modify the ssid= and 
 1. Press **Win+R** and type in "taskschd.msc" into the command line. Press **Enter** to open the Windows Task Scheduler.
 2. In the **Actions** pane on the right-hand side of the Task Scheduler window, select **Create Task...** to launch the Create Task window.
 3. In the **General** tab of the Create Task window:
-  1. Name your new task. (I used "CreateAdHoc")
-  2. Select the radio button to **Run whether user is logged on or not**.
-  3. Check the box to **Run with highest privileges**.
+   1. Name your new task. (I used "CreateAdHoc")
+   2. Select the radio button to **Run whether user is logged on or not**.
+   3. Check the box to **Run with highest privileges**.
 4. In the Triggers tab:
-  1. Select **New...**
-     2. Select **At log on** in the "Begin the task" drop-down.
-     3. Click **OK**.
+   1. Select **New...**
+      1. Select **At log on** in the "Begin the task" drop-down.
+      2. Click **OK**.
 5. In the **Actions** tab:
-  1. Select **New...**
-     1. Make sure **Start a program** is selected in the "Action" drop-down.
-     2. Click **Browse...** next to "Program/script".
-     3. Navigate to where you saved **AdHoc.bat**, select the file, and click **Open**.
-     4. Click **OK** to exit the New Action window.
+   1. Select **New...**
+      1. Make sure **Start a program** is selected in the "Action" drop-down.
+      2. Click **Browse...** next to "Program/script".
+      3. Navigate to where you saved **AdHoc.bat**, select the file, and click **Open**.
+      4. Click **OK** to exit the New Action window.
 6. Set any additional parameters in the Conditions and Settings tabs.
 7. Click OK to create the task. You will be prompted to enter the Admin credentials before the task is saved.
 
