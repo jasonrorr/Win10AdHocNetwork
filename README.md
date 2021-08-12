@@ -26,7 +26,7 @@ In the output of the command, look for the line *Hosted network supported :* If 
 
 If it says "No", there are many different schools of thought to get around this, but the easiest I've found is purchasing a separate WiFi adapter dongle that supports hosted networks and using that. Other potential solutions include:
 - If this worked before updating Windows 10, you can try [downgrading your drivers](https://answers.microsoft.com/en-us/windows/forum/windows_10-networking/hosted-network-supported-no-after-upgrading-to/eebe7952-31d7-487a-bbee-ef52fa035c68 "External Link: Microsoft Answers Forum") to a previous version
-- You can also try the opposite and [upgrade your network adapter driver]{https://support.microsoft.com/en-us/help/4028443/windows-10-update-drivers "External Link: Microsoft Support") to the newest version and see if it changes anything.
+- You can also try the opposite and [upgrade your network adapter driver](https://support.microsoft.com/en-us/help/4028443/windows-10-update-drivers "External Link: Microsoft Support") to the newest version and see if it changes anything.
 - If all you're looking for is a way to share internet connection between your computer/laptop and a mobile device such as a phone or tablet, you can just use the built-in [Mobile Hotspot](https://support.microsoft.com/en-us/help/4027762/windows-use-your-pc-as-a-mobile-hotspot "External Link: Microsoft Support") feature in Windows 10 to bridge your internet connection to your device.
 
 ## Prerequisites
